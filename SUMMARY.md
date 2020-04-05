@@ -6,7 +6,6 @@
 * [generator介绍](generator-jie-shao/README.md)
   * [Description](generator-jie-shao/usage.md)
   * [position,blockType,direction,以及他们的操作函数](generator-jie-shao/positionblocktypedirection-yi-ji-ta-men-de-cao-zuo-han-shu/README.md)
-    * [Untitled](generator-jie-shao/positionblocktypedirection-yi-ji-ta-men-de-cao-zuo-han-shu/untitled.md)
     * [在generator中的参数](generator-jie-shao/positionblocktypedirection-yi-ji-ta-men-de-cao-zuo-han-shu/zai-generator-zhong-de-can-shu.md)
   * [Option](generator-jie-shao/option.md)
   * [开始执行——validateParameter,generate与postGenerate](generator-jie-shao/kai-shi-zhi-hang-validateparametergenerate-yu-postgenerate.md)

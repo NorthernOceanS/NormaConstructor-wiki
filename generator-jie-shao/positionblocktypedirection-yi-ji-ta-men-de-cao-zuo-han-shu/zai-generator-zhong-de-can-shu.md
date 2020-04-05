@@ -8,11 +8,11 @@
 
 ## add类函数（addPosition,addBlockType,addDirection）
 
-add类函数仅有一个参数，忽略其返回值。传入参数即各自类型的结构体，这个函数应将其保存入各自的数组。
+add类函数仅有一个参数，参数为各函数名称所述的结构体，其返回值将会被忽略。这个函数应将其传入参数保存入对应的数组。
 
 ## remove类函数（removePosition,removeBlockType,removeDirection）
 
-remove类函数也只有一个参数，忽略其返回值。传入参数是一个index，这个函数应移除对应位置的数组元素。
+remove类函数也只有一个参数，传入参数是一个index。其返回值同样被忽略。这个函数应移除index对应位置的数组元素。
 
 ## ……晕了？
 
