@@ -8,7 +8,7 @@ Discord: [https://discord.gg/HUcknnV](https://discord.gg/HUcknnV)
 NormaConstructor是一个基于Scripting API的快速建造addon。它：（在我写下这个的时候）
 
 * 非常受社区欢迎（minebbs下载整整**9**次，源码star数惊人的**1**个 ）
-* 热烈的讨论（相关技术讨论QQ群内**9**人，discord内**8**人）
+* 热烈的讨论（相关技术讨论QQ群内**9**人，discord内**9**人）
 * 功能完善（支持多达**4**个功能）
 * API简单易于上手（添加一个功能仅需要填写**14**个参数，平均仅需**~150**行代码）
 * 多处使用（支持win10，win10和win10，还有**N**种服务端，N==0）

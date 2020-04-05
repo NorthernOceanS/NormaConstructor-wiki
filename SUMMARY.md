@@ -4,5 +4,8 @@
 * [……更多的警示](geng-duo-de-jing-shi.md)
 * [起步（终于……）](qi-bu-zhong-yu.md)
 * [generator介绍](generator-jie-shao/README.md)
-  * [Usage](generator-jie-shao/usage.md)
+  * [Description](generator-jie-shao/usage.md)
+  * [position,blockType,direction,以及他们的操作函数](generator-jie-shao/positionblocktypedirection-yi-ji-ta-men-de-cao-zuo-han-shu/README.md)
+    * [Untitled](generator-jie-shao/positionblocktypedirection-yi-ji-ta-men-de-cao-zuo-han-shu/untitled.md)
+    * [在generator中的参数](generator-jie-shao/positionblocktypedirection-yi-ji-ta-men-de-cao-zuo-han-shu/zai-generator-zhong-de-can-shu.md)
 
