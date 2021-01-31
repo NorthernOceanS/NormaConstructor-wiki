@@ -6,9 +6,9 @@ You already can use `system.registerCanonicalGenerator()` to register a canonica
 
 ```JS
 // in plugin/my-generator/index.js
-import nc from '../nc.js';
+import system from '../system.js';
 
-nc.registerGenerator({
+system.registerGenerator({
     name: Symbol("generator-name"),
     onInit(e) {
         e.state.positions = [];

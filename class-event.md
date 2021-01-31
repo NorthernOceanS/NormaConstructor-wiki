@@ -6,4 +6,3 @@
   `new Event(type)`
 * `event.type`: a string.
 * `event.state`: an object.
-* `event.target`: a `User`.

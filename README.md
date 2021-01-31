@@ -2,6 +2,5 @@
 
 **THIS** is a draft of new NormaConstructor document with functional features.
 
-Version: 0.6.0
+Version: 0.6.1
 
-Beside, there is also DZX's own API doc [here](draft..md)

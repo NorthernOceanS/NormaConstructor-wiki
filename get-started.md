@@ -20,7 +20,7 @@ The project have a structure like this, and to write a new `Generator`, all you 
       * scripts
         * client
           * index.js
-        * nc.js
+        * system.js
         * plugin
           * hello
             * index.js
@@ -31,9 +31,9 @@ The project have a structure like this, and to write a new `Generator`, all you 
 
 ```JS
 // in plugin/hello/index.js
-import nc from '../nc.js';
+import system from '../system.js';
 
-nc.registerCanonicalGenerator({
+system.registerCanonicalGenerator({
     name: "hello world",
     criteria: {
         positionsLength: 0,
@@ -60,22 +60,20 @@ All plugins are enclosed by a folder and placed inside the `plugin` folder. An `
     * index.js 
   * ...
 
-## `nc` API ##
-`nc` is a global unique object.
+## `system` API ##
+`system` is a global unique object.
 
 ### Register API ###
-`nc.registerGenerator()` is the most useful API. It can be used to register `Generator`s  to the system. 
+`system.registerGenerator()` is the most useful API. It can be used to register `Generator`s  to the system. 
 
-`nc.registerUI()` is an API which can register a UI to system.
-
-`nc.registerCommandParser()` is an API which can register a command parser to system.
+`system.registerCommandParser()` is an API which can register a command parser to system.
 
 To read more, see [**reference**](reference.md).
 
 ### Platform API ###
 **Runtime API can only used in runtime.**
 
-The runtime will provide API like `nc.getBlock()` in runtime.
+The runtime will provide API like `runtime.getBlock()` in runtime.
 
 To read more, see [**reference**](reference.md).
 

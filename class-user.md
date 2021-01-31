@@ -1,11 +1,12 @@
 # Class `User` #
 
-`User` is a class. It can be accessed in two ways. `nc.createUser()` normally is only used by platform. As a generator developer, you can access it as `e.target`.
+`User` is a class. It can be accessed in two ways. `system.createUser()` normally is only used by platform. As a generator developer, you can access it as `e.target`.
 
 
 * constructor
-  `new User(nc)`
-  * `nc`: a `NC` application.
+  `new User(system, id)`
+  * `system`: an instance of `System`.
+  * `id`: a number.
 * `user.session`: an object.
 * `user.nextGenerator()`
   * return value: `undefined`
@@ -29,8 +30,8 @@
 * `user.removeDirection(index)`
   * `index`: a number.
   * return value: `undefined`
-* `user.isValidParameter()`
-  * return value: a boolean.
+<--* `user.isValidParameter()`
+  * return value: a boolean.-->
 * `user.generate()`
   * return value: `undefined`
 * `user.exit()`
