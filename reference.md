@@ -4,5 +4,4 @@
 * [Class `User`](class-user.md)
 * [Interface `Platform`](interface-platform.md)
 * [Class `Event`](class-event.md)
-* [Class `EventTarget`](class-event-target.md)
 * [Interface `Generator`](interface-generator.md)
