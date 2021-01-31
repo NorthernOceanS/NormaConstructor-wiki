@@ -1,7 +1,7 @@
-# Custom Defined Generator #
+# 自定义生成器 #
 
-You already can use `system.registerCanonicalGenerator()` to register a canonical Generator to system. However, if you want freedom other than canonical Generator, you can define your own Generator.
-`Generator` is a object with a couple of functions, so any object with such functions can be registered as `Generator`.
+您已经可以使用 `system.registercanonicalgenerator() ` 向系统注册一个规范生成器。但是，如果您想要规范生成器以外的自由，您可以定义自己的生成器。
+`Generator` 是一个带有若干个函数的对象，所以任何带有这些函数的对象都可以注册为 `Generator` 。
 
 
 ```JS
@@ -27,4 +27,4 @@ system.registerGenerator({
 });
 
 ```
-Actually, `system.registerCanonicalGenerator(o)` is a shorthand of `system.registerGenerator(canonicalGeneratorFactory(o))`.
+实际上， `system.registerCanonicalGenerator(o)` 是 `system.registerGenerator(canonicalGeneratorFactory(o))` 的简写。
