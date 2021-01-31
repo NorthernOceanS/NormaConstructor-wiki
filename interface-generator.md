@@ -22,9 +22,9 @@
 * `generator.onRemoveDirection(e)`
   * `e`: an `RemoveDirectionEvent`.
   * return value: `undefined`
-* `generator.isValidParameter(e)`
+<--* `generator.isValidParameter(e)`
   * `e`: an `ValidateParameterEvent`.
-  * return value: a boolean.
+  * return value: a boolean.-->
 * `generator.generate(e)`
   * `e`: an `Event`.
   * return value: `undefined`

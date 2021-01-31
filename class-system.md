@@ -1,6 +1,6 @@
 # Class `System` #
 
-`System` is one of most import class. It have two kinds of API: register API, system API.
+`System` is one of most import class. It have two kinds of API: register API, platform used API.
 
 * constructor
   `new System()`

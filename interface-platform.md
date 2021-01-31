@@ -9,5 +9,6 @@ The `use` API is written as following:
 * `platform.use(nc)`
   * `nc`: a `NC` application.
   * return value: `undefinded`.
-
-It should also implement all runtime API of `NC`, to read more about runtime API, see [`NC`](class-nc.md)
+* `platform.createRuntime(id)`
+  * `id`: a number.
+  * return value: a `Runtime`.
