@@ -31,7 +31,7 @@ The project have a structure like this, and to write a new `Generator`, all you 
 
 ```JS
 // in plugin/hello/index.js
-import system from '../system.js';
+import system from '../../system.js';
 
 system.registerCanonicalGenerator({
     name: "hello world",

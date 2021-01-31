@@ -6,7 +6,7 @@ You already can use `system.registerCanonicalGenerator()` to register a canonica
 
 ```JS
 // in plugin/my-generator/index.js
-import system from '../system.js';
+import system from '../../system.js';
 
 system.registerGenerator({
     name: Symbol("generator-name"),
