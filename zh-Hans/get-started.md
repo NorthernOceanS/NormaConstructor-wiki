@@ -1,8 +1,8 @@
-# Get Started #
+# 开始 #
 
-## Installation ##
-NormaConstructor requires nodejs, if you haven't install nodejs, install [it](https://nodejs.org/) first.
-Now you can clone the repository.
+## 安装 ##
+NormaConstructor 需要 nodejs ，如果你还没有安装 nodejs ，请先安装[它](https://nodejs.org/)。
+现在可以克隆库了。
 
 ```shell
 $ git clone https://github.com/NorthernOceanS/NormaConstructor-template.git
@@ -12,7 +12,7 @@ $ npm insall
 ```
 
 ## Hello World ##
-The project have a structure like this, and to write a new `Generator`, all you need to do is creating a folder with a  file `index.js` in `packs/behaviors/scripts/plugin/`.
+这个项目的结构像是这样，要编写一个新的“生成器”，你所需要做的就是在 `packs/behaviors/scripts/plugin/` 下创建一个带有文件 `index.js` 的文件夹。
 .
 
   * packs 
@@ -49,37 +49,37 @@ system.registerCanonicalGenerator({
     }
 });
 ```
-To read more, see [**reference**](reference.md).
+更多信息请参见 [**参考**](reference.md) 。
 
 
-##  plugin location
+## 插件的位置
 
-All plugins are enclosed by a folder and placed inside the `plugin` folder. An `index.js` must be present.
+所有的插件都被应该封装在一个文件夹中，放在 `plugin` 文件夹中。一个 `index.js` 必须存在。
 * plugin
   * hello
     * index.js 
   * ...
 
 ## `system` API ##
-`system` is a global unique object.
+`system` 是一个全局唯一的对象。
 
-### Register API ###
-`system.registerGenerator()` is the most useful API. It can be used to register `Generator`s  to the system. 
+### 注册 API ###
+`system.registerGenerator()` 是最有用的 API 。它可以用来注册生成器到系统。
 
-`system.registerCommandParser()` is an API which can register a command parser to system.
+`system.registercommandparser()` 是一个 API ，它可以注册一个命令解析器到系统。
 
-To read more, see [**reference**](reference.md).
+更多信息请参见 [**参考**](reference.md) 。
 
-### Platform API ###
-**Runtime API can only used in runtime.**
+### 平台 API ###
+**运行时 API 只能在运行时中使用**
 
-The runtime will provide API like `runtime.getBlock()` in runtime.
+`runtime`将在运行时中提供像`runtime.getblock()`这样的 API 。
 
-To read more, see [**reference**](reference.md).
+更多信息请参见 [**参考**](reference.md) 。
 
-## Scripts ##
-The project use [minecraft-addon-toolchain](https://minecraft-addon-tools.github.io/
-) as its dependence, so it can use scripts
+## 脚本 ##
+此项目使用[minecraft-addon-toolchain](https://minecraft-addon-tools.github.io/
+)作为它的依赖，所以它可以使用脚本
 
 ```shell
 $ npm run build
@@ -88,9 +88,9 @@ $ npm run installaddon
 $ npm run uninstalladdon
 $ npm run packageaddon
 ```
-You can
-use `npm run build` to create the structure of a mcaddon,
-use `npm run installaddon` to install the addon for Win10,
-use `npm run uninstalladdon` to uninstall the addon for Win10,
-use `npm run packageaddon` to create a mcaddon package,
-or do other things you want.
+你可以
+使用 `npm run build` 来创建一个 mcaddon 的结构，
+使用 `npm run installaddon` 安装 Win 10 的插件，
+使用 `npm run uninstalladdon` 卸载 Win 10 的插件，
+使用 `npm run packageaddon` 创建一个 mcaddon 包，
+或者做其他你想做的事。
