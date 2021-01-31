@@ -1,6 +1,6 @@
-# Introduction
+# 简介
 
-**THIS** is a draft of new NormaConstructor document with functional features.
+**这** 是一个带有功能特性的新NormaConstructor文档的草稿。
 
-Version: 0.6.1
+版本: 0.6.1
 
