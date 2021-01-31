@@ -4,7 +4,7 @@
 * [Get Started](get-started.md)
 * [Custom Defined Generator](custom-defined-generator.md)
 * [Reference](reference.md)
-  * [Class `NC`](class-nc.md)
+  * [Class `System`](class-system.md)
   * [Class `User`](class-user.md)
   * [Interface `Platform`](interface-platform.md)
   * [Interface `Runtime`](interface-runtime.md)
