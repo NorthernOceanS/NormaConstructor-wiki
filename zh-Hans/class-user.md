@@ -27,19 +27,19 @@
 
 返回值：`undefined`
 ### `user.removePoistion(index)`
-`index`: 一个数字
+`index`: 数字
 
 返回值：`undefined`
 ### `user.removeBlockType(index)`
-`index`: 一个数字
+`index`: 数字
 
 返回值：`undefined`
 ### `user.removeDirection(index)`
-`index`: 一个数字
+`index`: 数字
 
 返回值：`undefined`
-<--* `user.isValidParameter()`
-  * return value: a boolean.-->
+### ~`user.isValidParameter()`~
+返回值：布尔
 ### `user.generate()`
 返回值：`undefined`
 ### `user.exit()`
