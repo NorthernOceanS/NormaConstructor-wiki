@@ -1,8 +1,8 @@
 # 自定义生成器 #
 
 您可以使用`system.registercanonicalgenerator()`注册一个标准生成器。但是，如果您想要标准生成器以外的功能，您可以自定义生成器。
-`Generator`是一个带有若干个函数的类，所以任何带有这些函数的对象都可以注册为`Generator`。
-更多关于`Generator`的介绍，详见(Generator类)[interface-generator.md]。
+`Generator`是一个带有若干个函数的接口，所以任何带有这些函数的对象都可以注册为`Generator`。
+更多关于`Generator`的介绍，详见(Generator接口)[interface-generator.md]。
 
 ```JS
 // in plugin/my-generator/index.js
