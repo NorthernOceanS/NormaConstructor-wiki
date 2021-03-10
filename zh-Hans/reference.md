@@ -1,8 +1,8 @@
-# Reference
+# 参考
 
-* [Class `System`](class-system.md)
-* [Class `User`](class-user.md)
-* [Interface `Platform`](interface-platform.md)
-* [Class `Event`](class-event.md)
-* [Interface `Generator`](interface-generator.md)
-* [Interface `Runtime`](interface-runtime.md)
+* [`System`类](class-system.md)
+* [`User`类](class-user.md)
+* [`Platform`接口](interface-platform.md)
+* [`Event`类](class-event.md)
+* [`Generator`类](interface-generator.md)
+* [`Runtime`接口](interface-runtime.md)
