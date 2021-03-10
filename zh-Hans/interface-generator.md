@@ -2,7 +2,7 @@
 
 具有以下功能的任何对象都可以视为`Generator`并注册。
 
-##方法
+## 方法
 ### `generator.name`
 字符串
 ### `generator.onAddPoistion(e)`
