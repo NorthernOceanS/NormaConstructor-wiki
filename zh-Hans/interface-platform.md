@@ -1,14 +1,16 @@
-# Interface `Platform` #
+# `Platform`接口 #
 
-`Platform` is an abstraction of Minecraft(&copy;) API, it hide the implementation details, bringing clean APIs to `NC` and other things rely on platform.
+`Platform`抽象了底层接口，隐藏了实现细节，将干净的API引入NC，而其他东西则依赖于框架。
 
-`Platform` have two kinds of API, `use()` and runtime API.
+`Platform`有两个API，`use()`API与运行时API。
+## 方法
+### Use API
 
-The `use` API is written as following:
+#### `platform.use(nc)`
+`nc`: 一个`NC`应用程序
 
-* `platform.use(nc)`
-  * `nc`: a `NC` application.
-  * return value: `undefinded`.
-* `platform.createRuntime(id)`
-  * `id`: a number.
-  * return value: a `Runtime`.
+返回值: `undefinded`
+#### `platform.createRuntime(id)`
+`id`: 数字
+
+返回值: 一个`Runtime`
