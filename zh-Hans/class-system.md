@@ -9,10 +9,12 @@
 #### `system.registerGenerator(generator)`
 
 `generator`：一个`Generator`
+
 返回值：`undefined`
 
 #### `system.registerCommandParser(commandParser)`
 `commandParser`：一个命令处理器
+
 返回值：`undefined`
 
 ### platform used API（只能在运行时使用）
