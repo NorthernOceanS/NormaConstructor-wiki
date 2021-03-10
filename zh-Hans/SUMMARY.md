@@ -1,6 +1,6 @@
 # 目录
 
-* [简介](README.md)
+* [欢迎！](README.md)
 * [开始](get-started.md)
 * [自定义生成器](custom-defined-generator.md)
 * [参考](reference.md)
