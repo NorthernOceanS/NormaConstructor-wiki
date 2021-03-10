@@ -1,15 +1,15 @@
-# Interface `Runtime` #
+# 运行时（Runtime） API #
 
-`Runtime` is an interface. Any object with following functions can seen as a `Runtime`.
+具有以下功能的任何对象都可以视为`Runtime`。
 
-* **Runtime API can only be called at runtime.**
-* `runtime.getBlock(c)`
-  * `c`: a `Coordinate`.
-  * return value: a `Promise`, whose will be resolved a `Block`.
-* `runtime.setBlock(b)`
-  * `b`: a `Block`.
-  * return value: a `Promise`, whose will be resolved `undefined`.
-* `runtime.setTimeout(func, milliseconds)`
-  * `func`: a fusystemtion, which will be called after `milliseconds` milliseconds.
-    Because of **tick** exist, the accuracy can hardly exceed a tick.
-  * return value: a number.
+运行时API只能在运行时使用。
+## 方法
+### `runtime.getBlock(c)`
+`c`: 一个`Coordinate`.
+返回值：一个`Promise`, 用于处理一个`Block`
+### `runtime.setBlock(b)`
+`b`: 一个`Block`
+返回值：一个`Promise`，用于处理运行结果（默认`undefined`）
+### `runtime.setTimeout(func, milliseconds)`
+`func`: 一个`Function`，在`milliseconds`毫秒后调用。（精确到游戏刻）
+返回值：数字
