@@ -4,7 +4,7 @@
 
 ## 构造函数
 `new System()`
-
+## 方法
 ### Register API（只能在运行时之前使用）
 #### `system.registerGenerator(generator)`
 
