@@ -69,14 +69,14 @@ system.registerCanonicalGenerator({
 
 `system.registercommandparser()`可以注册一个命令解析器。
 
-更多信息请参见 [**参考**](reference.md) 。
+更多信息请参[**参考**](reference.md)。
 
 ### 平台 API ###
 **Runtime API 只能在运行时中使用**
 
 `runtime`将在运行时中提供像`runtime.getblock()`这样的 API 。
 
-更多信息请参见 [**参考**](reference.md) 。
+更多信息请见[**参考**](reference.md)。
 
 ## 脚本 ##
 此项目使用了[minecraft-addon-toolchain](https://minecraft-addon-tools.github.io/)，
