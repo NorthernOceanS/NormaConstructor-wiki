@@ -1,6 +1,6 @@
-# 简介
+# 欢迎！
 
-**这** 是一个带有功能特性的新NormaConstructor文档的草稿。
+这是NormaConstructor NG的中文版文档。
 
-版本: 0.6.1
+版本: 0.6.2
 

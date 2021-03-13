@@ -1,38 +1,46 @@
-# Class `User` #
+# `User`类 #
 
-`User` is a class. It can be accessed in two ways. `system.createUser()` normally is only used by platform. As a generator developer, you can access it as `e.target`.
+`User`类在`system.createUser()`时出现；在生成器中，`e.target`也指向一个`User`。
 
 
-* constructor
-  `new User(system, id)`
-  * `system`: an instance of `System`.
-  * `id`: a number.
-* `user.session`: an object.
-* `user.nextGenerator()`
-  * return value: `undefined`
-* `user.perviousGenerator()`
-  * return value: `undefined`
-* `user.addPoistion(p)`
-  * `p`: a `Poistion`.
-  * return value: `undefined`
-* `user.addBlockType(e)`
-  * `t`: a `BlockType`.
-  * return value: `undefined`
-* `user.addDirection(e)`
-  * `d`: a `Direction`.
-  * return value: `undefined`
-* `user.removePoistion(index)`
-  * `index`: a number.
-  * return value: `undefined`
-* `user.removeBlockType(index)`
-  * `index`: a number.
-  * return value: `undefined`
-* `user.removeDirection(index)`
-  * `index`: a number.
-  * return value: `undefined`
-<--* `user.isValidParameter()`
-  * return value: a boolean.-->
-* `user.generate()`
-  * return value: `undefined`
-* `user.exit()`
-  * return value: `undefined`
+## 构造函数
+### `new User(system, id)`
+  * `system`：一个`System`
+  * `id`: 数字
+## 方法
+### `user.session`
+一个对象
+### `user.nextGenerator()`
+返回值：`undefined`
+### `user.perviousGenerator()`
+返回值：`undefined`
+### `user.addPoistion(p)`
+`p`: 一个`Poistion`
+
+返回值：`undefined`
+### `user.addBlockType(e)`
+`t`: 一个`BlockType`
+
+返回值：`undefined`
+### `user.addDirection(e)`
+`d`: 一个`Direction`
+
+返回值：`undefined`
+### `user.removePoistion(index)`
+`index`: 数字
+
+返回值：`undefined`
+### `user.removeBlockType(index)`
+`index`: 数字
+
+返回值：`undefined`
+### `user.removeDirection(index)`
+`index`: 数字
+
+返回值：`undefined`
+### ~`user.isValidParameter()`~
+返回值：布尔
+### `user.generate()`
+返回值：`undefined`
+### `user.exit()`
+返回值：`undefined`
