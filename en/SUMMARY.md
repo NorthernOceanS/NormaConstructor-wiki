@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Get Started](get-started.md)
+* [Using Canonical Generator](using-canonical-generator.md)
+* [Guide for Event](guide-for-event.md)
 * [Custom Defined Generator](custom-defined-generator.md)
 * [Reference](reference.md)
   * [Class `System`](class-system.md)
