@@ -1,38 +1,56 @@
-# Get Started #
+\r# Get Started #
 
 ## Installation ##
-NormaConstructor requires nodejs, if you haven't install nodejs, install [it](https://nodejs.org/) first.
+
+NormaConstructor requires nodejs and git.
+
+If you don't have nodejs, install [it](https://nodejs.org/) now.
+
+If you don't have git, install [it](https://git-scm.com/) now.
+
 Now you can clone the repository.
 
 ```shell
-$ git clone https://github.com/NorthernOceanS/NormaConstructor-template.git
-$ # Just a sample, there is no such project
-$ cd NormaConstructor-template
-$ npm insall
+$ git clone https://github.com/NorthernOceanS/NormaConstructor.git
+$ cd NormaConstructor
+$ npm install
+```
+
+If you are in China mainland, you can clone from a mirror (not synchronously update).
+
+```shell
+$ git clone https://e.coding.net/Northern_OceanS/NormaConstructor/NormaConstructor.git
 ```
 
 ## Hello World ##
-The project have a structure like this, and to write a new `Generator`, all you need to do is creating a folder with a  file `index.js` in `packs/behaviors/scripts/plugin/`.
+
+The project have a structure like this, and to write a new `Generator`,
+
+all you need to do is creating a folder with a file `index.js` in `packs/behaviors/scripts/plugin/`.
+
 .
 
   * packs 
     * behaviors
       * scripts
         * client
-          * index.js
+          * client.js
         * system.js
         * plugin
-          * hello
+          * nc
             * index.js
+          * **hello**
+            * **index.js**
           * ...
         * ...
     * resources
     * ...
 
+The **blod** ones is created by you.
+
 ```JS
 // in plugin/hello/index.js
-import system from '../../system.js';
-
+import {systemInstance as system} from 'norma-core';
 system.registerCanonicalGenerator({
     name: "hello world",
     criteria: {
@@ -48,38 +66,52 @@ system.registerCanonicalGenerator({
         }
     }
 });
-```
-To read more, see [**reference**](reference.md).
 
+```
+
+To know more, see following sections.
 
 ##  plugin location
 
 All plugins are enclosed by a folder and placed inside the `plugin` folder. An `index.js` must be present.
+
 * plugin
+  * nc
+    * index.js
   * hello
-    * index.js 
+    * index.js
   * ...
 
+The folder `nc` contain the offical `Generator`s of **NC**.
+
 ## `system` API ##
+
 `system` is a global unique object.
 
 ### Register API ###
-`system.registerGenerator()` is the most useful API. It can be used to register `Generator`s  to the system. 
+
+`system.registerGenerator()` is one of the most useful API.
+
+It can be used to register `Generator`s  to the system.
+
+However, you may find `system.registerCanonicalGenerator()` more useful.
 
 `system.registerCommandParser()` is an API which can register a command parser to system.
 
-To read more, see [**reference**](reference.md).
 
-### Platform API ###
+### Runtime API ###
+
 **Runtime API can only used in runtime.**
 
 The runtime will provide API like `runtime.getBlock()` in runtime.
 
-To read more, see [**reference**](reference.md).
+Runtime API may be platform dependant, because some platform may haven't feature other platforms have.
 
 ## Scripts ##
-The project use [minecraft-addon-toolchain](https://minecraft-addon-tools.github.io/
-) as its dependence, so it can use scripts
+
+The project use [minecraft-addon-toolchain](https://minecraft-addon-tools.github.io/)
+
+as its dependence, so it can use scripts
 
 ```shell
 $ npm run build
@@ -88,9 +120,15 @@ $ npm run installaddon
 $ npm run uninstalladdon
 $ npm run packageaddon
 ```
+
 You can
+
 use `npm run build` to create the structure of a mcaddon,
+
 use `npm run installaddon` to install the addon for Win10,
+
 use `npm run uninstalladdon` to uninstall the addon for Win10,
+
 use `npm run packageaddon` to create a mcaddon package,
+
 or do other things you want.
