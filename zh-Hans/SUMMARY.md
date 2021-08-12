@@ -1,6 +1,7 @@
 # 目录
 
 * [欢迎！](README.md)
+* [指引](guideline.md)
 * [开始](get-started.md)
 * [使用经典生成器](using-canonical-generator.md)
 * [Event指引](guide-for-event.md)
