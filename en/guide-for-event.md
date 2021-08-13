@@ -2,7 +2,7 @@
 
 Event is a concept of NC.
 
-For canonical generator developer, the only two Event callback function is `generate` and `UIHandler`, if you learn more about [custom defined generator](custom-defined-generator.md), you will .
+For canonical generator developer, the only two Event callback function is `generate` and `UIHandler`, if you learn more about [custom defined generator](custom-defined-generator.md), you will learn more such function.
 
 ## Function `generate`
 

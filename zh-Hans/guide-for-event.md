@@ -2,7 +2,7 @@
 
 Event是NC的一个概念。
 
-对于规范生成器的开发者来说，仅有的两个Event回调函数是`generate`和`UIHandler`，如果你了解更多关于[自定义定义生成器](custom-defined-generator.md)，你会。
+对于规范生成器的开发者来说，仅有的两个Event回调函数是`generate`和`UIHandler`，如果你了解更多关于[自定义定义生成器](custom-defined-generator.md)，你会学到更多的这样的函数。
 
 ## 函数 `generate`
 
