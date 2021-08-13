@@ -8,6 +8,7 @@
 * [使用经典生成器](using-canonical-generator.md)
 * [Event指引](guide-for-event.md)
 * [自定义生成器](custom-defined-generator.md)
+* [NOS](nos.md)
 * [参考](reference.md)
   * [`System`类](class-system.md)
   * [`User`类](class-user.md)
