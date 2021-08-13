@@ -30,16 +30,17 @@ system.registerNOSProgram("nc", {
 
 `system.registerNOSProgram(name, NameSpace)` 用于注册 NOS 程序。 `NameSpace` 应该是一个对象，它是 NOS 程序的命名空间。命名空间 `nc` 的 `cat` 函数称为 `nc.cat`。
 
+还有两个函数
 还有两个函数被称为native NOS 程序，它们没有命名空间，它们是`set`和`add`。
 
 ## 运行一个 NOS 程序
 
 运行一个 nos 程序并不难。
 
-如果你想在生成器的`generate`函数中调用一个NOS程序，你可以调用`runtime.runNOS("nc.cat -h | nc.cat", undefined)`，`runNOS`将使用第二个参数作为输入传入 NOS 中的第一个程序，最终程序的输出将用作返回值。这里的返回值将是 `undefined`，因为 NOS 程序的两次调用只会将其输入返回到输出。此外，`The program just pass its input to output`将记录在info级别。你也可以使用 Runtime API 的 `execl` 或 `execv`，但不太推荐使用它们。
+如果你想在生成器的`generate`函数中调用一个NOS程序，你可以调用`runtime.runNOS("nc.cat -h | nc.cat", undefined)`，`runNOS`将使用第二个参数作为输入传入第一个 NOS 中的程序，最后一个程序的输出将用作返回值。这里的返回值将是 `undefined`，因为 NOS 程序的两次调用只会将其输入返回到输出。此外，`The program just pass its input to output` 将记录在info级别。你也可以使用 Runtime API 的 `execl` 或 `execv`，但不太推荐使用它们。
 
-如果你想在`args`中引入空格（` `）或管道操作符（`|`），你可以使用单引号（`'`）或双引号（`"`）来包裹它。`runtime .runNOS("nc.cat '-h -h'", undefined)` 不会像 `["nc.cat", "'-h", "-h'"]` 那样得到 `args` 而是 `[ "nc.cat", "-h -h"]`。你也可以在引号中使用转义字符，包裹的字符串字面量将像 JS 字符串字面量一样转义。
+如果你想在`args`中引入空格（` `）或管道操作符（`|`），你可以使用单引号（`'`）或双引号（`"`）来包裹它。`runtime.runNOS("nc.cat '-h -h'", undefined)` 不会像 `["nc.cat", "'-h", "-h'"]` 那样得到 `args` 而是 `[ "nc.cat", "-h -h"]`。你也可以在引号中使用转义字符，包裹的字符串字面量将像 JS 字符串字面量一样转义。
 
-不用担心`runNOS`的兼容性，它就是所谓的系统运行时API，所以它可以到处运行。
+不用担心`runNOS`的兼容性，它就是所谓的 system runtime API，所以它可以到处运行。
 
 在某些后端，你可以使用命令`/nos:nosprogram` 来运行nosprogram，但这并不能在每个后端都运行。
