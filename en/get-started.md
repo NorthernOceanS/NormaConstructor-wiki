@@ -96,7 +96,7 @@ It can be used to register `Generator`s  to the system.
 
 However, you may find `system.registerCanonicalGenerator()` more useful.
 
-`system.registerCommandParser()` is an API which can register a command parser to system.
+`system.registerNOSProgram()` is an API which can register a command parser to system.
 
 
 ### Runtime API ###

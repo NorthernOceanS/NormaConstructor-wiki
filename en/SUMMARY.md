@@ -7,6 +7,7 @@
 * [Using Canonical Generator](using-canonical-generator.md)
 * [Guide for Event](guide-for-event.md)
 * [Custom Defined Generator](custom-defined-generator.md)
+* [NOS](nos.md)
 * [Reference](reference.md)
   * [Class `System`](class-system.md)
   * [Class `User`](class-user.md)
