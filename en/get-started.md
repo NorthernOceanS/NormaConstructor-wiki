@@ -60,7 +60,7 @@ system.registerCanonicalGenerator({
     },
     method: {
         generate: function (e) {
-            return;
+            return [];
             // the Generator can not actually generate anything,
             // but it can be a sample of how to register a generator.
         }
