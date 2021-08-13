@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Guideline](guideline.md)
+* [Types](types.md)
 * [Get Started](get-started.md)
 * [Using Canonical Generator](using-canonical-generator.md)
 * [Guide for Event](guide-for-event.md)
