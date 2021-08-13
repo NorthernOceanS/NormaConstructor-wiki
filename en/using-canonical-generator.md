@@ -29,6 +29,8 @@ system.registerCanonicalGenerator({
             return [];
             // the Generator can not actually generate anything,
             // but it can be a example of how to register a generator.
+        UIhandler: function (e) {
+            //empty
         }
     }
 });
@@ -110,7 +112,7 @@ A typical `optionUsage` is as follows:
 If you are writing **`text`**, it will only have these two propertes. If you are writing the other three, it will have more:
 
 * "key" specifies which property of the `state` will be bind to data in UI. This can be understood as a binding: `key: "aaa"` means that this UI element will modify `state["aaa"]`. (**NOTICE**: don't use "positions", "blockTypes" and "directions" as key, also don't use key begin with double underscores, because it is use by offical)
-* "data" is an array, it only appears in buttons and checkboxes. Each element in this array contains value and text. Each time the button/checkbox is clicked, the text of the next element is displayed on the button/checkbox, and the value will be setted as the value of `state[key]`. if `state[key]` is initialized by `option`, it will be the default state. If it does not exist or is `undefined`, the first element in the array will be selected.
+* "data" is an array, it only appears in buttons and checkboxes. Each element in this array contains `value` and `text`, some of them also contains `dataForUIHandler`. Each time the button/checkbox is clicked, the `text` of the next element is displayed on the button/checkbox, and the `value` will be setted as the value of `state[key]`, when `dataForUIHandler` exist, the `UIHandler` of the generator will be be called with data of `dataForUIHandler`. if `state[key]` is initialized by `option`, it will be the default state. If it does not exist or is `undefined`, the first element in the array will be selected.
 * **Deprecated** "default" only appears in edittext. If `state[key]` does not exist, this value is used as the default value displayed by edittext. (Deprecated and not recommend)
 
 ## Option
