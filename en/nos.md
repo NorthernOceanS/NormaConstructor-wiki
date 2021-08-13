@@ -30,7 +30,7 @@ It also have `e`, just as functions on generator. But it have two unusual things
 
 `system.registerNOSProgram(name, NameSpace)` is used in register NOS Programs. `NameSpace` should be an object, which is namespace of NOS programs. The `cat` function of namespace `nc` is refered as `nc.cat`.
 
-There is also two functions
+There is also two functions called native NOS program, who haven't namespace, they are `set` and `add`.
 
 ## Run a NOS Program
 
