@@ -4,6 +4,7 @@
 * [使用教程](tutorial.md)
 * [指引](guideline.md)
 * [开始](get-started.md)
+* [类型](types.md)
 * [使用经典生成器](using-canonical-generator.md)
 * [Event指引](guide-for-event.md)
 * [自定义生成器](custom-defined-generator.md)
