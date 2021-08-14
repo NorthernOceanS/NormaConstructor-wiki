@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Tutorial](tutorial.md)
 * [Guideline](guideline.md)
 * [Get Started](get-started.md)
 * [Types](types.md)
