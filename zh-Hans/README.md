@@ -2,7 +2,7 @@
 
 **这** 是 NormaConstructor NG beta 文档的草稿。
 
-**NormaConstructor**是一个开源的快速构建插件，目前运行在scripting API上。
+**NormaConstructor**是一个开源的快速构建插件，目前运行在scripting API[scripting API](https://bedrock.dev/zh/docs/stable/Scripting) 和 [lxl](https://lxl.litetitle.com/)上。
 但它被设计为可以在任何地方运行，包括官方插件平台
 和第三方BDS插件平台。
 

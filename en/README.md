@@ -2,7 +2,7 @@
 
 **THIS** is a draft of NormaConstructor NG beta document.
 
-**NormaConstructor** is a open source fast building addon currently runs on scripting API.
+**NormaConstructor** is a open source fast building addon currently runs on [scripting API](https://bedrock.dev/en/docs/stable/Scripting) and [lxl](https://lxl.litetitle.com/).
 But it designed to be run **everywhere**, including offical addon platfroms
 and third party BDS plugin platfroms.
 
