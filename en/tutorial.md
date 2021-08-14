@@ -63,6 +63,7 @@ In the age of blocklauncher, the ancient master 6g3y created a quick constructio
 NC is more "strict". These functions are split and assigned to a single tool. Specifically, the tools used by NC are
 
 | Parameter setting tool | `get_position, getdirection, (place the square directly), get_air` |
+| ------------- | ------------- |
 | Parameter removal tool | `remove_last_position,remove_last_direction,remove_last_blocktype` |
 | Other tools | show_menu,show_saved_data,execute,choose_next_generator |
 
