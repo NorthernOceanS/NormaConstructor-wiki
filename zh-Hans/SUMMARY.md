@@ -2,7 +2,7 @@
 
 * [欢迎！](README.md)
 * [使用教程](tutorial.md)
-* [指引](guideline.md)
+* [另一个教程](yet-another-tutorial.md)
 * [开始](get-started.md)
 * [类型](types.md)
 * [使用经典生成器](using-canonical-generator.md)

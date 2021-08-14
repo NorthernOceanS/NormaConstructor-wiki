@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Tutorial](tutorial.md)
-* [Guideline](guideline.md)
+* [Yet Another Tutorial](yet-another-tutorial.md)
 * [Get Started](get-started.md)
 * [Types](types.md)
 * [Using Canonical Generator](using-canonical-generator.md)
