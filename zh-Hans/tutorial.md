@@ -76,3 +76,5 @@ NC更加“严谨”一些。这些功能被拆分，并分配给单一的工具
 **choose_next_generator** 用来切换到下一个生成器。在lxl版这是唯一的切换方法，这一点将在未来有所改变。
 ## 最后
 关于其它生成器的使用方法，敬参考：<https://www.bilibili.com/video/BV1Wh411d7QN/>
+
+如果你没有看懂上面的教程，可以阅读[另一个教程](yet-another-tutorial.md)

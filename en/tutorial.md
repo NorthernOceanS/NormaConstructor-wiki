@@ -76,3 +76,5 @@ NC is more "strict". These functions are split and assigned to a single tool. Sp
 **choose_next_generator** is used to switch to the next generator. This is the only switching method in the lxl version, which will be changed in the future.
 ## at last
 Regarding how to use other generators, please refer to: <http://www.youtube.com/watch?v=8YI_9E0aVLY>
+
+If you did not understand the above tutorial, you can read [another tutorial](yet-another-tutorial.md)

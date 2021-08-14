@@ -33,3 +33,5 @@
 **NormaConstructor**有非常详细的日志记录发生的所有事情。如果你不需要它们，你可以通过UI将日志级别更改为“info”(**NormaConstructor** 在 lxl 上还没有办法使用改变日志级别，很快就会修复)。
 
 关于使用**NormaConstructor**，还有一个[bilibili上的视频](https://www.bilibili.com/video/BV1Wh411d7QN)，你可以从它了解单独每个生成器的更多信息。
+
+如果你没有看懂上面的教程，可以阅读[另一个教程](tutorial.md)

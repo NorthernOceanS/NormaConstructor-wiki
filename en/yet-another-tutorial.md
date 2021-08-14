@@ -34,3 +34,4 @@ There is very verbose log logging everything happen in **NormaConstructor**. If 
 
 There is also a [vedio on bilibili](https://www.bilibili.com/video/BV1Wh411d7QN) about using **NormaConstructor**, you can learn more about every generator separately form it.
 
+If you did not understand the above tutorial, you can read [another tutorial](tutorial.md)
