@@ -18,7 +18,7 @@
 ## 我是一个程序员，如何基于**NormaConstructor**进行开发?
 您可以从<https://github.com/NorthernOceanS/NormaConstructor>获取源代码。
 
-在你开始之前，你可以先阅读下面的文档，从[**Get Started**](get-started.md)开始。
+在你开始之前，你可以先阅读下面的文档，从[**快速入门**](get-started.md)开始。
 
 基于**NormaConstructor**的开发将比
 从头开始开发一个`addon`容易得多，这就是**NormaConstructor**被创建的原因。
