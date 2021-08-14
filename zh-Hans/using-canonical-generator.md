@@ -115,7 +115,7 @@ system.registerCanonicalGenerator({
 
 * "key" 指定 `state` 的哪个属性将绑定到 UI 中的数据。这可以理解为一个绑定：`key: "aaa"` 表示这个 UI 元素会修改 `state["aaa"]`。 （**注意**：不要使用`positions`、`blockTypes`和`directions`作为key，也不要使用双下划线开头的key，因为这是官方使用的）
 * "data" 是一个数组，它只出现在按钮和复选框中。这个数组中的每个元素都包含 `value` 和 `text`，其中一些还包含 `dataForUIHandler`。每次单击按钮/复选框时，按钮/复选框上都会显示下一个元素的`text`，并且`state[key]`的值将被设置为`value`，当`dataForUIHandler`存在时，生成器的`UIHandler` 将被`dataForUIHandler` 的数据调用。如果 `state[key]` 被 `option` 初始化，它将是默认状态。如果它不存在或为`undefinded`，则将选择数组中的第一个元素。
-* **已弃用**"data"仅出现在编辑文本中。如果`state[key]` 不存在，则该值用作edittext 显示的默认值。 （已弃用，不推荐）
+* **已弃用**"default"仅出现在编辑文本中。如果`state[key]` 不存在，则该值用作edittext 显示的默认值。 （已弃用，不推荐）
 
 ## option
 `option` 是 JavaScript 中的一个简单对象。它用于初始化`state`。
