@@ -33,5 +33,5 @@ You can also contact them in discord by <https://discord.gg/HUcknnV>.
 You are very welcome for any advice on **NormaConstructor**.
 
 
-Version: 0.7.0
+Version: 0.8.0
 
