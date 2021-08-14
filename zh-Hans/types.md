@@ -1,6 +1,6 @@
 # 类型
 
-NC中有很多类型，都在`norma-core`，一个npm包，中。它们是`Coordinate`、`Position`、`BlockType`、`Block`、`Direction`、`Usage`、`Description`、`BuildInstruction`。其中，`Position`、`BlockType`和`Direction`在 NC 中非常重要，因此被称为 NC 的三种基础类型。即使你是它的普通用户，你也会了解它们。 `Usage`、`Description` 很少使用但仍然支持。 `Generator` 已弃用，永远不会使用。
+NC中有很多类型，都在一个npm包，`norma-core`中。它们是`Coordinate`、`Position`、`BlockType`、`Block`、`Direction`、`Usage`、`Description`、`BuildInstruction`。其中，`Position`、`BlockType`和`Direction`在 NC 中非常重要，因此被称为 NC 的三种基础类型。即使你是它的普通用户，你也会了解它们。 `Usage`、`Description` 很少使用但仍然支持。 `Generator` 已弃用，永远不会使用。
 
 ## `Position`
 
@@ -16,7 +16,7 @@ NC中有很多类型，都在`norma-core`，一个npm包，中。它们是`Coord
 
 目前它不能支持tiledata。正在考虑添加对 tiledata 的支持。
 
-## `方向`
+## `Direction`
 
 一个 `Direction` 包含两个属性，`x` 和 `y`。
 
@@ -28,7 +28,7 @@ NC中有很多类型，都在`norma-core`，一个npm包，中。它们是`Coord
 
 `Block` 和 `BuildInstruction` 也很重要。这里将介绍`Block`。
 
-## `块`
+## `Block`
 
 `Block`包含两个属性，`position`和`blockType`，它们的类型为`Position`和`BlockType`。
 
