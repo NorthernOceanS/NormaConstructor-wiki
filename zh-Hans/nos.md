@@ -30,7 +30,6 @@ system.registerNOSProgram("nc", {
 
 `system.registerNOSProgram(name, NameSpace)` 用于注册 NOS 程序。 `NameSpace` 应该是一个对象，它是 NOS 程序的命名空间。命名空间 `nc` 的 `cat` 函数称为 `nc.cat`。
 
-还有两个函数
 还有两个函数被称为native NOS 程序，它们没有命名空间，它们是`set`和`add`。
 
 ## 运行一个 NOS 程序
