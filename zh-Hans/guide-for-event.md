@@ -30,22 +30,22 @@ function (e) {
 
 代码 `let { state, runtime } = e;` 是 JavaScript 中的解构赋值，如果你对 JavaScript 知之甚少，你可能会对此感到困惑。它实际上是 `let state = e.state; let runtime = e.runtime;`的语法糖，如果它仍然让你感到困惑，你可以使用 `let state = e.state; let runtime = e.runtime;` 或者让它保持不变。
 
-如果您对 JavaScript 了解更多，您可以编写类似 `function ({ state, runtime }){...}` 这样的函数。它既不被推荐也没有被不推荐。
+如果你对 JavaScript 了解更多，你可以编写类似 `function ({ state, runtime }){...}` 这样的函数。它既不被推荐也没有被不推荐。
 
 要了解更多信息，请参阅 [MDN上的解构分配的页面](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)。
 
 ### Runtime API 和 `runtime.logger`
 
-Runtime API 是提供对平台的进一步访问的 API，例如 `logger`。但是，如果您想编写可移植的生成器，则应该对 Runtime API 加以更多的注意。
+Runtime API 是提供对平台的进一步访问的 API，例如 `logger`。但是，如果你想编写可移植的生成器，则应该对 Runtime API 加以更多的注意。
 
-尽管 NC 试图使Runtime API 在不同的后端兼容。不同的后端仍然可以使用不同的 Runtime API。可能是平台原因造成的，例如，在 scripting API中无法访问文件系统。因此，您必须在使用每个 Runtime API 之前对其进行检查。尽管 `runtime.logger` 是最兼容的 API 之一，但我们仍然在使用前对其进行检查。
+尽管 NC 试图使Runtime API 在不同的后端兼容。不同的后端仍然可以使用不同的 Runtime API。可能是平台原因造成的，例如，在 scripting API中无法访问文件系统。因此，你必须在使用每个 Runtime API 之前对其进行检查。尽管 `runtime.logger` 是最兼容的 API 之一，但我们仍然在使用前对其进行检查。
 
 要了解有关 Runtime API 的更多信息，请参阅 [参考中的接口 runtime ](interface-runtime.md)。
 
 ### `state`
-您已经在 [使用经典生成器](using-canonical-generator.md) 中了解了一些state。更多关于 `state` 的内容将在这里解释。
+你已经在 [使用经典生成器](using-canonical-generator.md) 中了解了一些state。更多关于 `state` 的内容将在这里解释。
 
-`state` 是 JavaScript 中的一个简单对象，它由规范生成器的 `option` 初始化。它是每个生成器每个用户存储数据的地方，因此数据不会相互混淆。在规范生成器中，存在三个现有属性：`positions`、`blockTypes`和`directions`，您可以使用 `state.positions`、`state.blockTypes` 和 `state.directions` 来引用它们。
+`state` 是 JavaScript 中的一个简单对象，它由规范生成器的 `option` 初始化。它是每个生成器每个用户存储数据的地方，因此数据不会相互混淆。在规范生成器中，存在三个现有属性：`positions`、`blockTypes`和`directions`，你可以使用 `state.positions`、`state.blockTypes` 和 `state.directions` 来引用它们。
 
 ### 返回值
 
@@ -55,7 +55,7 @@ Runtime API 是提供对平台的进一步访问的 API，例如 `logger`。但�
 
 首先使用代码`let { state, runtime, data } = e;`。 UIHandler 的 `e` 包含一个 `data`，它就是 `dataForUIHandler`，正如在 [使用经典生成器](using-canonical-generator.md) 中所说的那样。
 
-您仍然可以像在函数`generate`中一样访问`state`和`runtime`。
+你仍然可以像在函数`generate`中一样访问`state`和`runtime`。
 
 `UIHandler` 的返回值不会被使用。
 

@@ -4,11 +4,11 @@
 
 NormaConstructor 需要 nodejs 和 git。
 
-如果您没有 nodejs，请立即安装[它](https://nodejs.org/)。
+如果你没有 nodejs，请立即安装[它](https://nodejs.org/)。
 
-如果您没有 git，请立即安装[它](https://git-scm.com/)。 
+如果你没有 git，请立即安装[它](https://git-scm.com/)。 
 
-现在您可以克隆仓库了。
+现在你可以克隆仓库了。
 
 在终端执行：
 ```shell
@@ -25,7 +25,7 @@ $ git clone https://e.coding.net/Northern_OceanS/NormaConstructor/NormaConstruct
 
 ## Hello World ##
 该项目具有这样的结构，并且要编写一个新的`Generator`，
-您需要做的就是在 `packs/behaviors/scripts/plugin/` 中创建一个包含文件 `index.js` 的文件夹。
+你需要做的就是在 `packs/behaviors/scripts/plugin/` 中创建一个包含文件 `index.js` 的文件夹。
 .
 
   * packs 
