@@ -20,7 +20,7 @@ system.registerNOSProgram("nc", {
 ```
 ## Write a NOS Program
 
-It also have `e`, just as functions on generator. But it have two unusual things, `args` and `input`.
+It also has `e`, just as functions on generator. But it have two unusual things, `args` and `input`.
 
 `args` is an array of string. If you call it like `nc.cat -h`, the `args` will be `["nc.cat", "-h"]`.
 
